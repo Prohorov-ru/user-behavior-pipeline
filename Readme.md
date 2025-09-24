@@ -12,9 +12,9 @@
 ***
 ## 🚀 Быстрый старт
 
-### 1. Клонирование репозитория
+### 1. Клонирование репозитория 
 ```bush
-git clone https://github.com/your-username/user-behavior-pipeline
+git clone https://github.com/prohorov-ru/user-behavior-pipeline
 cd user-behavior-pipeline
 ```
 ### 2. Создание необходимых папок (ВЫПОЛНИТЬ ВРУЧНУЮ)
