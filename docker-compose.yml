@@ -1,45 +1,61 @@
 version: '3.8'
 services:
-  postgres:
+  # PostgreSQL для Airflow (метаданные)
+  postgres-airflow:
     image: postgres:13
     environment:
       - POSTGRES_USER=airflow
       - POSTGRES_PASSWORD=airflow
       - POSTGRES_DB=airflow
     volumes:
-      - postgres_data:/var/lib/postgresql/data
+      - postgres_airflow_data:/var/lib/postgresql/data
     ports:
       - "5432:5432"
 
+  # PostgreSQL для бизнес-данных
+  postgres-data:
+    image: postgres:13
+    environment:
+      - POSTGRES_USER=data_user
+      - POSTGRES_PASSWORD=data_password
+      - POSTGRES_DB=user_data_db
+    volumes:
+      - postgres_data_data:/var/lib/postgresql/data
+      - ./sql/init.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - "5433:5432"
+
+  # Airflow
   airflow-webserver:
     image: apache/airflow:2.7.0
     environment:
       - AIRFLOW__CORE__EXECUTOR=LocalExecutor
-      - AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
+      - AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres-airflow/airflow
       - AIRFLOW__CORE__LOAD_EXAMPLES=false
     volumes:
       - ./dags:/opt/airflow/dags
       - ./scripts:/opt/airflow/scripts
-      - ./data:/opt/airflow/data
+      - ./generated_data:/opt/airflow/generated_data  # ← ИЗМЕНИЛ
     ports:
       - "8080:8080"
     depends_on:
-      - postgres
+      - postgres-airflow
 
   airflow-scheduler:
     image: apache/airflow:2.7.0
     environment:
       - AIRFLOW__CORE__EXECUTOR=LocalExecutor
-      - AIRFLUB__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
+      - AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres-airflow/airflow
       - AIRFLOW__CORE__LOAD_EXAMPLES=false
     volumes:
       - ./dags:/opt/airflow/dags
       - ./scripts:/opt/airflow/scripts
-      - ./data:/opt/airflow/data
+      - ./generated_data:/opt/airflow/generated_data  # ← ИЗМЕНИЛ
     depends_on:
-      - postgres
+      - postgres-airflow
       - airflow-webserver
 
+  # Minio
   minio:
     image: minio/minio
     environment:
@@ -52,20 +68,23 @@ services:
       - "9000:9000"
       - "9001:9001"
 
-  # ОТДЕЛЬНАЯ БД ДЛЯ ДАННЫХ
-  data-postgres:
-    image: postgres:13
+  # Grafana
+  grafana:
+    image: grafana/grafana:latest
     environment:
-      - POSTGRES_USER=data_user
-      - POSTGRES_PASSWORD=data_password
-      - POSTGRES_DB=user_data_db
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=grafana
     volumes:
-      - data_postgres_data:/var/lib/postgresql/data
-      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./grafana/provisioning:/etc/grafana/provisioning
+      - ./grafana/dashboards:/var/lib/grafana/dashboards
+      - grafana_data:/var/lib/grafana
     ports:
-      - "5433:5432"
+      - "3000:3000"
+    depends_on:
+      - postgres-data
 
 volumes:
-  postgres_data:
+  postgres_airflow_data:
+  postgres_data_data:
   minio_data:
-  data_postgres_data:
+  grafana_data:

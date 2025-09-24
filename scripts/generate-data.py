@@ -1,4 +1,5 @@
 # Генерация синтетических данных поведения пользователей и самих пользователей в JSON файл.
+# Все данные сохраняются в отдельную директорию в проекте.
 
 
 # Для генерации данных пользователей, используем генератор данных Faker.
@@ -10,9 +11,9 @@ import random
 from datetime import datetime, timedelta
 
 
-# Создаем папку
+# Создаем папку generated_data, и папки в формате "%d-%m-%Y" на каждый день генерации.
 project_root = os.path.join(os.path.dirname(__file__), '..')
-project_root = os.path.abspath(project_root)  # Преобразуем в абсолютный путь
+project_root = os.path.abspath(project_root)  # Преобразуем в абсолютный путь.
 
 generated_data = os.path.join(project_root, "generated_data")
 timestamp = datetime.now().strftime("%d-%m-%Y")
@@ -39,14 +40,14 @@ def generate_user_profiles():
     return users
 
 
-# Сохраняем профили в отдельную папку timestamp_folder
+# Сохраняем профили в отдельную папку generated_data.
 users = generate_user_profiles()
 user_profiles_path = os.path.join(timestamp_folder, 'user_profiles.json')
 with open(user_profiles_path, 'w', encoding='utf-8') as file:
     json.dump(users, file, ensure_ascii=False, indent=2)
 
 
-# Генерация активности пользователей
+# Генерация активности пользователей.
 def generate_user_behavior():
     event_types = ['session_start', 'click', 'page_view']
     user_ids = [f'user_{i}' for i in range(1, 151)]
@@ -62,11 +63,10 @@ def generate_user_behavior():
     return event
 
 
-# Генерируем 1000 событий
+# Генерируем 1000 событий.
 events = [generate_user_behavior() for _ in range(1000)]
 
-# Сохраняем события в отдельную папку timestamp_folder
+# Сохраняем события в отдельную папку generated_data.
 raw_events_path = os.path.join(timestamp_folder, 'raw_events.json')
 with open(raw_events_path, 'w', encoding='utf-8') as file:
     json.dump(events, file, ensure_ascii=False, indent=2)
-    
