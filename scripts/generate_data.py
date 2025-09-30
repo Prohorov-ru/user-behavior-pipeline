@@ -25,7 +25,7 @@ def setup_environment():
     except Exception as e:
         print(f"❌ Ошибка создания папок: {e}")
         print("💡 Запускайте скрипт внутри Airflow контейнера:")
-        print("   docker-compose exec airflow-webserver python /opt/airflow/scripts/generate-data.py")
+        print("   docker-compose exec airflow-webserver python /opt/airflow/scripts/generate_data.py")
         sys.exit(1)
 
 

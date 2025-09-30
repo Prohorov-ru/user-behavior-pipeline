@@ -1,7 +1,29 @@
 version: '3.8'
 
+x-airflow-common: &airflow-common
+  image: apache/airflow:2.7.0
+  environment:
+    &airflow-common-env
+    - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+    - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres-airflow:5432/airflow
+    - AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION=true
+    - AIRFLOW__CORE__LOAD_EXAMPLES=false
+    - AIRFLOW__LOGGING__DAG_PROCESSOR_LOG_TARGET=stdout
+    - AIRFLOW__LOGGING__DAG_PROCESSOR_MANAGER_LOG_TARGET=stdout
+    - AIRFLOW__LOGGING__REMOTE_LOGGING=false
+  volumes:
+    - ./dags:/opt/airflow/dags
+    - ./logs:/opt/airflow/logs
+    - ./plugins:/opt/airflow/plugins
+    - ./config:/opt/airflow/config
+    - ./scripts:/opt/airflow/scripts
+    - ./generated_data:/opt/airflow/generated_data
+  user: "0:0"
+  depends_on:
+    postgres-airflow:
+      condition: service_healthy
+
 services:
-  # PostgreSQL для Airflow (метаданные)
   postgres-airflow:
     image: postgres:13
     environment:
@@ -10,21 +32,18 @@ services:
       - POSTGRES_DB=airflow
     volumes:
       - postgres_airflow_data:/var/lib/postgresql/data
-    ports:
-      - "5432:5432"
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U airflow"]
       interval: 10s
       timeout: 5s
       retries: 3
 
-  # PostgreSQL для бизнес-данных
   postgres-data:
     image: postgres:13
     environment:
       - POSTGRES_USER=data_user
       - POSTGRES_PASSWORD=data_password
-      - POSTGRES_DB=user_data_db
+      - POSTGRES_DB=user_behavior
     volumes:
       - postgres_data_data:/var/lib/postgresql/data
       - ./sql:/docker-entrypoint-initdb.d
@@ -36,52 +55,28 @@ services:
       timeout: 5s
       retries: 3
 
-  # Airflow Webserver
   airflow-webserver:
-    image: apache/airflow:2.7.0
-    environment:
-      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
-      - AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres-airflow/airflow
-      - AIRFLOW__CORE__LOAD_EXAMPLES=false
-      - AIRFLOW__CORE__DAGS_FOLDER=/opt/airflow/dags
-      - AIRFLOW__WEBSERVER__EXPOSE_CONFIG=true
-    volumes:
-      - ./dags:/opt/airflow/dags
-      - ./scripts:/opt/airflow/scripts
-      - ./generated_data:/opt/airflow/generated_data
+    <<: *airflow-common
+    command: webserver
     ports:
       - "8080:8080"
-    depends_on:
-      postgres-airflow:
-        condition: service_healthy
-    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
 
-  # Airflow Scheduler
   airflow-scheduler:
-    image: apache/airflow:2.7.0
-    environment:
-      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
-      - AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres-airflow/airflow
-      - AIRFLOW__CORE__LOAD_EXAMPLES=false
-      - AIRFLOW__CORE__DAGS_FOLDER=/opt/airflow/dags
-    volumes:
-      - ./dags:/opt/airflow/dags
-      - ./scripts:/opt/airflow/scripts
-      - ./generated_data:/opt/airflow/generated_data
-    depends_on:
-      postgres-airflow:
-        condition: service_healthy
-      airflow-webserver:
-        condition: service_started
-    restart: unless-stopped
+    <<: *airflow-common
+    command: scheduler
+    restart: always
 
-  # MinIO (S3-совместимое хранилище)
   minio:
     image: minio/minio
+    command: server /data --console-address ":9001"
     environment:
       - MINIO_ROOT_USER=minio
       - MINIO_ROOT_PASSWORD=minio123
-    command: server /data --console-address ":9001"
     volumes:
       - minio_data:/data
     ports:
@@ -93,12 +88,11 @@ services:
       timeout: 20s
       retries: 3
 
-  # Grafana (визуализация)
   grafana:
     image: grafana/grafana:latest
     environment:
       - GF_SECURITY_ADMIN_USER=admin
-      - GF_SECURITY_ADMIN_PASSWORD=grafana
+      - GF_SECURITY_ADMIN_PASSWORD=admin
     volumes:
       - ./grafana/provisioning:/etc/grafana/provisioning
       - ./grafana/dashboards:/var/lib/grafana/dashboards
