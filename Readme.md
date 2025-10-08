@@ -11,7 +11,7 @@
 docker-compose up -d
 ```
 ### 2. Доступ к сервисам.
-- Airflow: http://localhost:8080 (логин: `airflow`, пароль: `airflow`)
+- Airflow: http://localhost:8080 (логин: `admin`, пароль: `admin`)
 - MinIO: http://localhost:9001 (логин: `minio`, пароль: `minio123`)
 - Grafana: http://localhost:3000 (логин: `admin`, пароль: `admin`)
 
