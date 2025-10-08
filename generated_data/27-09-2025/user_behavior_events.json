@@ -1,0 +1,1378 @@
+[
+  {
+    "timestamp": "2025-09-27 21:01:55",
+    "event_type": "click",
+    "user_id": "user_007",
+    "device": "desktop_windows",
+    "session_id": "sess_9339",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 14:14:55",
+    "event_type": "purchase",
+    "user_id": "user_001",
+    "device": "android",
+    "session_id": "sess_6011",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 19:39:55",
+    "event_type": "click",
+    "user_id": "user_068",
+    "device": "android",
+    "session_id": "sess_3432",
+    "page_url": "https://rao.ru/blog/blog/postsmain.php"
+  },
+  {
+    "timestamp": "2025-09-27 00:18:55",
+    "event_type": "purchase",
+    "user_id": "user_030",
+    "device": "android",
+    "session_id": "sess_4901",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 06:37:55",
+    "event_type": "purchase",
+    "user_id": "user_136",
+    "device": "ios",
+    "session_id": "sess_5503",
+    "page_url": "http://www.ip.biz/search/listmain.html"
+  },
+  {
+    "timestamp": "2025-09-27 15:01:55",
+    "event_type": "page_view",
+    "user_id": "user_150",
+    "device": "ios",
+    "session_id": "sess_2291",
+    "page_url": "http://www.npo.biz/list/tag/categoriespost.php"
+  },
+  {
+    "timestamp": "2025-09-27 00:55:55",
+    "event_type": "page_view",
+    "user_id": "user_072",
+    "device": "macos",
+    "session_id": "sess_5349",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 18:44:55",
+    "event_type": "page_view",
+    "user_id": "user_129",
+    "device": "desktop_windows",
+    "session_id": "sess_4021",
+    "page_url": "http://ooo.com/posts/categorymain.html"
+  },
+  {
+    "timestamp": "2025-09-27 14:41:55",
+    "event_type": "page_view",
+    "user_id": "user_133",
+    "device": "desktop_windows",
+    "session_id": "sess_5671",
+    "page_url": "https://rao.edu/wp-content/explore/mainterms.htm"
+  },
+  {
+    "timestamp": "2025-09-27 23:07:55",
+    "event_type": "page_view",
+    "user_id": "user_011",
+    "device": "desktop_windows",
+    "session_id": "sess_8726",
+    "page_url": "https://ip.net/explore/searchregister.html"
+  },
+  {
+    "timestamp": "2025-09-27 11:56:55",
+    "event_type": "purchase",
+    "user_id": "user_136",
+    "device": "desktop_windows",
+    "session_id": "sess_8167",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 19:23:55",
+    "event_type": "logout",
+    "user_id": "user_100",
+    "device": "desktop_windows",
+    "session_id": "sess_9181",
+    "page_url": "http://www.rao.org/listlogin.php"
+  },
+  {
+    "timestamp": "2025-09-27 15:29:55",
+    "event_type": "purchase",
+    "user_id": "user_044",
+    "device": "macos",
+    "session_id": "sess_6683",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 04:22:55",
+    "event_type": "purchase",
+    "user_id": "user_087",
+    "device": "macos",
+    "session_id": "sess_2239",
+    "page_url": "https://www.ooo.ru/main/posts/categoriescategory.jsp"
+  },
+  {
+    "timestamp": "2025-09-27 10:58:55",
+    "event_type": "logout",
+    "user_id": "user_066",
+    "device": "macos",
+    "session_id": "sess_8031",
+    "page_url": "https://ip.biz/categoryfaq.htm"
+  },
+  {
+    "timestamp": "2025-09-27 16:45:55",
+    "event_type": "click",
+    "user_id": "user_050",
+    "device": "ios",
+    "session_id": "sess_8941",
+    "page_url": "http://rao.ru/appsearch.htm"
+  },
+  {
+    "timestamp": "2025-09-27 03:41:55",
+    "event_type": "click",
+    "user_id": "user_093",
+    "device": "macos",
+    "session_id": "sess_8505",
+    "page_url": "http://www.strelkov.ru/listhome.html"
+  },
+  {
+    "timestamp": "2025-09-27 18:42:55",
+    "event_type": "click",
+    "user_id": "user_019",
+    "device": "android",
+    "session_id": "sess_4650",
+    "page_url": "https://zao.info/blog/listhome.php"
+  },
+  {
+    "timestamp": "2025-09-27 01:57:55",
+    "event_type": "click",
+    "user_id": "user_110",
+    "device": "desktop_windows",
+    "session_id": "sess_4354",
+    "page_url": "http://npo.net/search/categoriesregister.html"
+  },
+  {
+    "timestamp": "2025-09-27 01:04:55",
+    "event_type": "logout",
+    "user_id": "user_019",
+    "device": "desktop_windows",
+    "session_id": "sess_3322",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 19:07:55",
+    "event_type": "logout",
+    "user_id": "user_002",
+    "device": "android",
+    "session_id": "sess_3380",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 16:53:55",
+    "event_type": "page_view",
+    "user_id": "user_037",
+    "device": "macos",
+    "session_id": "sess_7201",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 08:00:55",
+    "event_type": "purchase",
+    "user_id": "user_025",
+    "device": "ios",
+    "session_id": "sess_4612",
+    "page_url": "https://www.ooo.com/tag/mainsearch.htm"
+  },
+  {
+    "timestamp": "2025-09-27 16:40:55",
+    "event_type": "logout",
+    "user_id": "user_117",
+    "device": "desktop_windows",
+    "session_id": "sess_9903",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 00:12:55",
+    "event_type": "session_start",
+    "user_id": "user_069",
+    "device": "macos",
+    "session_id": "sess_7571",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 05:55:55",
+    "event_type": "logout",
+    "user_id": "user_125",
+    "device": "desktop_windows",
+    "session_id": "sess_6864",
+    "page_url": "http://zao.org/tag/categorypost.html"
+  },
+  {
+    "timestamp": "2025-09-27 00:55:55",
+    "event_type": "logout",
+    "user_id": "user_042",
+    "device": "macos",
+    "session_id": "sess_8427",
+    "page_url": "http://www.zao.info/mainlogin.jsp"
+  },
+  {
+    "timestamp": "2025-09-27 01:42:55",
+    "event_type": "purchase",
+    "user_id": "user_111",
+    "device": "macos",
+    "session_id": "sess_7383",
+    "page_url": "https://www.zao.org/posts/categoryhome.html"
+  },
+  {
+    "timestamp": "2025-09-27 16:42:55",
+    "event_type": "page_view",
+    "user_id": "user_039",
+    "device": "desktop_windows",
+    "session_id": "sess_8961",
+    "page_url": "https://www.ip.biz/app/wp-content/postsmain.php"
+  },
+  {
+    "timestamp": "2025-09-27 11:57:55",
+    "event_type": "page_view",
+    "user_id": "user_026",
+    "device": "ios",
+    "session_id": "sess_1848",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 14:13:55",
+    "event_type": "click",
+    "user_id": "user_012",
+    "device": "desktop_windows",
+    "session_id": "sess_7621",
+    "page_url": "http://www.ak.biz/search/list/categorycategory.asp"
+  },
+  {
+    "timestamp": "2025-09-27 22:22:55",
+    "event_type": "session_start",
+    "user_id": "user_094",
+    "device": "ios",
+    "session_id": "sess_9339",
+    "page_url": "https://www.npo.biz/categoriesabout.htm"
+  },
+  {
+    "timestamp": "2025-09-27 17:10:55",
+    "event_type": "session_start",
+    "user_id": "user_047",
+    "device": "ios",
+    "session_id": "sess_8238",
+    "page_url": "http://www.zao.org/tags/tags/categoriesindex.asp"
+  },
+  {
+    "timestamp": "2025-09-27 12:08:55",
+    "event_type": "session_start",
+    "user_id": "user_004",
+    "device": "desktop_windows",
+    "session_id": "sess_8489",
+    "page_url": "https://ao.ru/category/tagshome.php"
+  },
+  {
+    "timestamp": "2025-09-27 20:28:55",
+    "event_type": "session_start",
+    "user_id": "user_105",
+    "device": "macos",
+    "session_id": "sess_2581",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 07:21:55",
+    "event_type": "click",
+    "user_id": "user_067",
+    "device": "macos",
+    "session_id": "sess_6623",
+    "page_url": "https://oao.edu/categories/categories/tagindex.php"
+  },
+  {
+    "timestamp": "2025-09-27 03:18:55",
+    "event_type": "session_start",
+    "user_id": "user_067",
+    "device": "android",
+    "session_id": "sess_6646",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 16:13:55",
+    "event_type": "click",
+    "user_id": "user_014",
+    "device": "macos",
+    "session_id": "sess_8083",
+    "page_url": "https://zao.biz/category/search/listsearch.htm"
+  },
+  {
+    "timestamp": "2025-09-27 23:46:55",
+    "event_type": "logout",
+    "user_id": "user_118",
+    "device": "desktop_windows",
+    "session_id": "sess_8762",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 23:49:55",
+    "event_type": "click",
+    "user_id": "user_010",
+    "device": "desktop_windows",
+    "session_id": "sess_3726",
+    "page_url": "http://ustinova.ru/categories/explore/blogsearch.htm"
+  },
+  {
+    "timestamp": "2025-09-27 07:55:55",
+    "event_type": "session_start",
+    "user_id": "user_031",
+    "device": "ios",
+    "session_id": "sess_4620",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 06:09:55",
+    "event_type": "logout",
+    "user_id": "user_074",
+    "device": "ios",
+    "session_id": "sess_6818",
+    "page_url": "http://ip.edu/list/tagabout.htm"
+  },
+  {
+    "timestamp": "2025-09-27 00:38:55",
+    "event_type": "page_view",
+    "user_id": "user_047",
+    "device": "macos",
+    "session_id": "sess_7171",
+    "page_url": "https://www.ip.biz/explore/categoryauthor.php"
+  },
+  {
+    "timestamp": "2025-09-27 04:54:55",
+    "event_type": "click",
+    "user_id": "user_068",
+    "device": "macos",
+    "session_id": "sess_2049",
+    "page_url": "http://ip.net/categories/posts/searchhomepage.html"
+  },
+  {
+    "timestamp": "2025-09-27 21:29:55",
+    "event_type": "page_view",
+    "user_id": "user_131",
+    "device": "ios",
+    "session_id": "sess_2381",
+    "page_url": "https://ilina.biz/apppost.htm"
+  },
+  {
+    "timestamp": "2025-09-27 15:24:55",
+    "event_type": "page_view",
+    "user_id": "user_126",
+    "device": "macos",
+    "session_id": "sess_8788",
+    "page_url": "https://suhanov.com/wp-content/explorehome.htm"
+  },
+  {
+    "timestamp": "2025-09-27 06:20:55",
+    "event_type": "page_view",
+    "user_id": "user_144",
+    "device": "desktop_windows",
+    "session_id": "sess_4858",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 10:54:55",
+    "event_type": "page_view",
+    "user_id": "user_067",
+    "device": "macos",
+    "session_id": "sess_7212",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 04:42:55",
+    "event_type": "purchase",
+    "user_id": "user_098",
+    "device": "android",
+    "session_id": "sess_6517",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 10:42:55",
+    "event_type": "click",
+    "user_id": "user_077",
+    "device": "android",
+    "session_id": "sess_4613",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 00:43:55",
+    "event_type": "purchase",
+    "user_id": "user_081",
+    "device": "macos",
+    "session_id": "sess_5122",
+    "page_url": "http://vgtrk.org/blog/tagcategory.php"
+  },
+  {
+    "timestamp": "2025-09-27 16:32:55",
+    "event_type": "purchase",
+    "user_id": "user_146",
+    "device": "macos",
+    "session_id": "sess_3612",
+    "page_url": "https://www.npo.edu/wp-content/main/categoriesauthor.jsp"
+  },
+  {
+    "timestamp": "2025-09-27 11:49:55",
+    "event_type": "click",
+    "user_id": "user_092",
+    "device": "ios",
+    "session_id": "sess_2963",
+    "page_url": "http://oao.net/tagabout.htm"
+  },
+  {
+    "timestamp": "2025-09-27 22:19:55",
+    "event_type": "click",
+    "user_id": "user_035",
+    "device": "macos",
+    "session_id": "sess_5991",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 13:50:55",
+    "event_type": "purchase",
+    "user_id": "user_016",
+    "device": "desktop_windows",
+    "session_id": "sess_7668",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 02:10:55",
+    "event_type": "logout",
+    "user_id": "user_054",
+    "device": "android",
+    "session_id": "sess_4328",
+    "page_url": "http://www.kompanija.org/taghome.asp"
+  },
+  {
+    "timestamp": "2025-09-27 02:19:55",
+    "event_type": "click",
+    "user_id": "user_025",
+    "device": "ios",
+    "session_id": "sess_2335",
+    "page_url": "http://katren.biz/taglogin.html"
+  },
+  {
+    "timestamp": "2025-09-27 23:37:55",
+    "event_type": "page_view",
+    "user_id": "user_141",
+    "device": "ios",
+    "session_id": "sess_7692",
+    "page_url": "http://www.komos.biz/category/wp-content/categoriesfaq.htm"
+  },
+  {
+    "timestamp": "2025-09-27 10:10:55",
+    "event_type": "page_view",
+    "user_id": "user_120",
+    "device": "android",
+    "session_id": "sess_3450",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 02:38:55",
+    "event_type": "session_start",
+    "user_id": "user_125",
+    "device": "macos",
+    "session_id": "sess_7357",
+    "page_url": "https://www.subbotina.org/mainmain.html"
+  },
+  {
+    "timestamp": "2025-09-27 17:23:55",
+    "event_type": "purchase",
+    "user_id": "user_041",
+    "device": "ios",
+    "session_id": "sess_1031",
+    "page_url": "https://www.ip.ru/categories/blog/wp-contentregister.html"
+  },
+  {
+    "timestamp": "2025-09-27 18:39:55",
+    "event_type": "page_view",
+    "user_id": "user_051",
+    "device": "macos",
+    "session_id": "sess_2707",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 17:47:55",
+    "event_type": "logout",
+    "user_id": "user_094",
+    "device": "android",
+    "session_id": "sess_8219",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 11:40:55",
+    "event_type": "page_view",
+    "user_id": "user_132",
+    "device": "macos",
+    "session_id": "sess_8639",
+    "page_url": "http://ferrero.info/blog/tags/mainabout.asp"
+  },
+  {
+    "timestamp": "2025-09-27 21:26:55",
+    "event_type": "logout",
+    "user_id": "user_142",
+    "device": "desktop_windows",
+    "session_id": "sess_1056",
+    "page_url": "http://gordeeva.org/tag/search/categoriesauthor.htm"
+  },
+  {
+    "timestamp": "2025-09-27 02:44:55",
+    "event_type": "page_view",
+    "user_id": "user_058",
+    "device": "ios",
+    "session_id": "sess_1181",
+    "page_url": "http://www.ao.ru/explore/searchfaq.htm"
+  },
+  {
+    "timestamp": "2025-09-27 03:23:55",
+    "event_type": "session_start",
+    "user_id": "user_071",
+    "device": "ios",
+    "session_id": "sess_1949",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 06:28:55",
+    "event_type": "click",
+    "user_id": "user_090",
+    "device": "macos",
+    "session_id": "sess_1449",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 13:17:55",
+    "event_type": "session_start",
+    "user_id": "user_109",
+    "device": "macos",
+    "session_id": "sess_5683",
+    "page_url": "https://sidorova.biz/tag/listauthor.php"
+  },
+  {
+    "timestamp": "2025-09-27 16:08:55",
+    "event_type": "page_view",
+    "user_id": "user_089",
+    "device": "macos",
+    "session_id": "sess_1697",
+    "page_url": "http://www.zao.edu/tag/category/blogcategory.html"
+  },
+  {
+    "timestamp": "2025-09-27 06:35:55",
+    "event_type": "purchase",
+    "user_id": "user_106",
+    "device": "ios",
+    "session_id": "sess_3722",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 00:43:55",
+    "event_type": "purchase",
+    "user_id": "user_101",
+    "device": "android",
+    "session_id": "sess_8639",
+    "page_url": "https://www.ao.net/app/mainabout.htm"
+  },
+  {
+    "timestamp": "2025-09-27 09:12:55",
+    "event_type": "logout",
+    "user_id": "user_083",
+    "device": "android",
+    "session_id": "sess_8783",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 14:07:55",
+    "event_type": "session_start",
+    "user_id": "user_128",
+    "device": "android",
+    "session_id": "sess_7006",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 01:44:55",
+    "event_type": "click",
+    "user_id": "user_034",
+    "device": "ios",
+    "session_id": "sess_6424",
+    "page_url": "https://rao.ru/listfaq.html"
+  },
+  {
+    "timestamp": "2025-09-27 12:21:55",
+    "event_type": "click",
+    "user_id": "user_065",
+    "device": "desktop_windows",
+    "session_id": "sess_5314",
+    "page_url": "https://kuznetsova.info/tag/categories/postsmain.asp"
+  },
+  {
+    "timestamp": "2025-09-27 03:02:55",
+    "event_type": "click",
+    "user_id": "user_069",
+    "device": "ios",
+    "session_id": "sess_1393",
+    "page_url": "https://www.ao.org/category/tags/searchauthor.php"
+  },
+  {
+    "timestamp": "2025-09-27 23:48:55",
+    "event_type": "purchase",
+    "user_id": "user_117",
+    "device": "ios",
+    "session_id": "sess_9891",
+    "page_url": "http://samsung.edu/categories/main/searchauthor.htm"
+  },
+  {
+    "timestamp": "2025-09-27 14:55:55",
+    "event_type": "click",
+    "user_id": "user_061",
+    "device": "android",
+    "session_id": "sess_8974",
+    "page_url": "https://www.ip.biz/tagindex.htm"
+  },
+  {
+    "timestamp": "2025-09-27 05:43:55",
+    "event_type": "click",
+    "user_id": "user_122",
+    "device": "macos",
+    "session_id": "sess_2224",
+    "page_url": "http://kornilov.edu/tag/search/mainfaq.html"
+  },
+  {
+    "timestamp": "2025-09-27 06:55:55",
+    "event_type": "logout",
+    "user_id": "user_140",
+    "device": "macos",
+    "session_id": "sess_3664",
+    "page_url": "https://www.stroservis.edu/categories/blog/listmain.php"
+  },
+  {
+    "timestamp": "2025-09-27 05:44:55",
+    "event_type": "click",
+    "user_id": "user_099",
+    "device": "ios",
+    "session_id": "sess_4670",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 10:39:55",
+    "event_type": "click",
+    "user_id": "user_104",
+    "device": "ios",
+    "session_id": "sess_8822",
+    "page_url": "http://www.fortum.info/explore/tag/mainpost.php"
+  },
+  {
+    "timestamp": "2025-09-27 18:35:55",
+    "event_type": "logout",
+    "user_id": "user_124",
+    "device": "desktop_windows",
+    "session_id": "sess_3580",
+    "page_url": "https://www.kalashnikova.org/posts/listterms.html"
+  },
+  {
+    "timestamp": "2025-09-27 20:52:55",
+    "event_type": "click",
+    "user_id": "user_084",
+    "device": "android",
+    "session_id": "sess_5835",
+    "page_url": "http://www.ao.info/apphome.html"
+  },
+  {
+    "timestamp": "2025-09-27 20:48:55",
+    "event_type": "purchase",
+    "user_id": "user_114",
+    "device": "macos",
+    "session_id": "sess_3656",
+    "page_url": "http://nizhnekamskneftehim.com/blog/explore/tagauthor.htm"
+  },
+  {
+    "timestamp": "2025-09-27 02:42:55",
+    "event_type": "purchase",
+    "user_id": "user_100",
+    "device": "macos",
+    "session_id": "sess_4411",
+    "page_url": "https://www.ip.org/tagshomepage.php"
+  },
+  {
+    "timestamp": "2025-09-27 01:16:55",
+    "event_type": "page_view",
+    "user_id": "user_056",
+    "device": "android",
+    "session_id": "sess_2113",
+    "page_url": "https://ooo.com/app/categories/tagfaq.html"
+  },
+  {
+    "timestamp": "2025-09-27 00:52:55",
+    "event_type": "session_start",
+    "user_id": "user_007",
+    "device": "android",
+    "session_id": "sess_9633",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 10:39:55",
+    "event_type": "session_start",
+    "user_id": "user_127",
+    "device": "macos",
+    "session_id": "sess_3114",
+    "page_url": "https://zao.info/search/tags/appfaq.jsp"
+  },
+  {
+    "timestamp": "2025-09-27 12:55:55",
+    "event_type": "page_view",
+    "user_id": "user_130",
+    "device": "ios",
+    "session_id": "sess_9070",
+    "page_url": "https://www.ooo.ru/listhome.asp"
+  },
+  {
+    "timestamp": "2025-09-27 15:47:55",
+    "event_type": "session_start",
+    "user_id": "user_054",
+    "device": "ios",
+    "session_id": "sess_1192",
+    "page_url": "http://ooo.ru/tag/categories/categorymain.php"
+  },
+  {
+    "timestamp": "2025-09-27 04:39:55",
+    "event_type": "page_view",
+    "user_id": "user_123",
+    "device": "desktop_windows",
+    "session_id": "sess_5408",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 01:09:55",
+    "event_type": "page_view",
+    "user_id": "user_049",
+    "device": "ios",
+    "session_id": "sess_8475",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 18:45:55",
+    "event_type": "logout",
+    "user_id": "user_096",
+    "device": "macos",
+    "session_id": "sess_4713",
+    "page_url": "https://ooo.com/categoriesabout.html"
+  },
+  {
+    "timestamp": "2025-09-27 20:59:55",
+    "event_type": "page_view",
+    "user_id": "user_037",
+    "device": "desktop_windows",
+    "session_id": "sess_4436",
+    "page_url": "https://www.rao.edu/tag/blog/postsmain.php"
+  },
+  {
+    "timestamp": "2025-09-27 17:22:55",
+    "event_type": "purchase",
+    "user_id": "user_060",
+    "device": "desktop_windows",
+    "session_id": "sess_5674",
+    "page_url": "http://www.zao.info/tag/tagregister.php"
+  },
+  {
+    "timestamp": "2025-09-27 20:07:55",
+    "event_type": "page_view",
+    "user_id": "user_036",
+    "device": "macos",
+    "session_id": "sess_4577",
+    "page_url": "http://zao.biz/category/blog/listindex.htm"
+  },
+  {
+    "timestamp": "2025-09-27 13:24:55",
+    "event_type": "logout",
+    "user_id": "user_028",
+    "device": "android",
+    "session_id": "sess_6528",
+    "page_url": "https://rao.edu/tags/tagcategory.html"
+  },
+  {
+    "timestamp": "2025-09-27 18:45:55",
+    "event_type": "click",
+    "user_id": "user_033",
+    "device": "macos",
+    "session_id": "sess_3833",
+    "page_url": "http://www.ooo.org/postsmain.html"
+  },
+  {
+    "timestamp": "2025-09-27 22:26:55",
+    "event_type": "click",
+    "user_id": "user_121",
+    "device": "macos",
+    "session_id": "sess_7500",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 06:38:55",
+    "event_type": "session_start",
+    "user_id": "user_002",
+    "device": "android",
+    "session_id": "sess_3684",
+    "page_url": "https://ao.com/category/list/categorieshome.php"
+  },
+  {
+    "timestamp": "2025-09-27 03:03:55",
+    "event_type": "click",
+    "user_id": "user_045",
+    "device": "android",
+    "session_id": "sess_5389",
+    "page_url": "https://rao.biz/posts/categoriescategory.html"
+  },
+  {
+    "timestamp": "2025-09-27 07:48:55",
+    "event_type": "purchase",
+    "user_id": "user_056",
+    "device": "ios",
+    "session_id": "sess_3284",
+    "page_url": "http://www.oao.info/wp-content/posts/tagsmain.htm"
+  },
+  {
+    "timestamp": "2025-09-27 19:22:55",
+    "event_type": "page_view",
+    "user_id": "user_133",
+    "device": "android",
+    "session_id": "sess_7283",
+    "page_url": "https://ao.info/explore/posts/exploremain.html"
+  },
+  {
+    "timestamp": "2025-09-27 08:02:55",
+    "event_type": "session_start",
+    "user_id": "user_103",
+    "device": "desktop_windows",
+    "session_id": "sess_9635",
+    "page_url": "https://www.zao.net/search/categoryhomepage.html"
+  },
+  {
+    "timestamp": "2025-09-27 04:02:55",
+    "event_type": "click",
+    "user_id": "user_143",
+    "device": "ios",
+    "session_id": "sess_9402",
+    "page_url": "https://www.oao.org/search/listlogin.html"
+  },
+  {
+    "timestamp": "2025-09-27 07:32:55",
+    "event_type": "click",
+    "user_id": "user_036",
+    "device": "android",
+    "session_id": "sess_7756",
+    "page_url": "http://www.rao.edu/posts/tags/categoryhome.htm"
+  },
+  {
+    "timestamp": "2025-09-27 04:03:55",
+    "event_type": "logout",
+    "user_id": "user_135",
+    "device": "ios",
+    "session_id": "sess_7750",
+    "page_url": "https://www.fg.org/taghomepage.php"
+  },
+  {
+    "timestamp": "2025-09-27 13:38:55",
+    "event_type": "logout",
+    "user_id": "user_070",
+    "device": "desktop_windows",
+    "session_id": "sess_7401",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 11:11:55",
+    "event_type": "click",
+    "user_id": "user_118",
+    "device": "macos",
+    "session_id": "sess_2188",
+    "page_url": "https://ip.org/main/listfaq.jsp"
+  },
+  {
+    "timestamp": "2025-09-27 07:46:55",
+    "event_type": "session_start",
+    "user_id": "user_041",
+    "device": "android",
+    "session_id": "sess_1498",
+    "page_url": "http://nikolaeva.edu/search/mainhome.jsp"
+  },
+  {
+    "timestamp": "2025-09-27 13:12:55",
+    "event_type": "session_start",
+    "user_id": "user_036",
+    "device": "ios",
+    "session_id": "sess_7034",
+    "page_url": "https://mosvodokanal.org/categoryprivacy.html"
+  },
+  {
+    "timestamp": "2025-09-27 12:28:55",
+    "event_type": "logout",
+    "user_id": "user_027",
+    "device": "desktop_windows",
+    "session_id": "sess_7910",
+    "page_url": "https://komandor-holding.com/app/blog/wp-contentprivacy.htm"
+  },
+  {
+    "timestamp": "2025-09-27 01:15:55",
+    "event_type": "click",
+    "user_id": "user_061",
+    "device": "android",
+    "session_id": "sess_6431",
+    "page_url": "https://zao.info/app/categorylogin.html"
+  },
+  {
+    "timestamp": "2025-09-27 03:47:55",
+    "event_type": "logout",
+    "user_id": "user_107",
+    "device": "macos",
+    "session_id": "sess_7515",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 02:28:55",
+    "event_type": "logout",
+    "user_id": "user_147",
+    "device": "ios",
+    "session_id": "sess_1071",
+    "page_url": "http://www.filippova.com/tagmain.php"
+  },
+  {
+    "timestamp": "2025-09-27 17:01:55",
+    "event_type": "click",
+    "user_id": "user_135",
+    "device": "android",
+    "session_id": "sess_4453",
+    "page_url": "https://www.orehov.edu/wp-content/listhomepage.php"
+  },
+  {
+    "timestamp": "2025-09-27 02:10:55",
+    "event_type": "purchase",
+    "user_id": "user_069",
+    "device": "desktop_windows",
+    "session_id": "sess_5713",
+    "page_url": "http://www.oao.edu/postscategory.html"
+  },
+  {
+    "timestamp": "2025-09-27 15:56:55",
+    "event_type": "click",
+    "user_id": "user_126",
+    "device": "ios",
+    "session_id": "sess_9687",
+    "page_url": "http://www.oao.ru/wp-contentfaq.asp"
+  },
+  {
+    "timestamp": "2025-09-27 22:50:55",
+    "event_type": "page_view",
+    "user_id": "user_025",
+    "device": "desktop_windows",
+    "session_id": "sess_9901",
+    "page_url": "http://www.shchukin.org/app/categories/blogregister.html"
+  },
+  {
+    "timestamp": "2025-09-27 11:32:55",
+    "event_type": "logout",
+    "user_id": "user_105",
+    "device": "android",
+    "session_id": "sess_9526",
+    "page_url": "http://rao.org/postshomepage.html"
+  },
+  {
+    "timestamp": "2025-09-27 14:15:55",
+    "event_type": "session_start",
+    "user_id": "user_079",
+    "device": "desktop_windows",
+    "session_id": "sess_7885",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 08:58:55",
+    "event_type": "session_start",
+    "user_id": "user_051",
+    "device": "macos",
+    "session_id": "sess_7002",
+    "page_url": "https://rao.ru/blog/categoryauthor.htm"
+  },
+  {
+    "timestamp": "2025-09-27 07:02:55",
+    "event_type": "logout",
+    "user_id": "user_135",
+    "device": "android",
+    "session_id": "sess_5424",
+    "page_url": "https://www.dds.ru/list/categorycategory.html"
+  },
+  {
+    "timestamp": "2025-09-27 14:10:55",
+    "event_type": "page_view",
+    "user_id": "user_030",
+    "device": "desktop_windows",
+    "session_id": "sess_6804",
+    "page_url": "http://pervaja.edu/app/blog/searchpost.html"
+  },
+  {
+    "timestamp": "2025-09-27 09:04:55",
+    "event_type": "session_start",
+    "user_id": "user_023",
+    "device": "macos",
+    "session_id": "sess_3135",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 18:21:55",
+    "event_type": "logout",
+    "user_id": "user_149",
+    "device": "macos",
+    "session_id": "sess_7191",
+    "page_url": "https://oao.org/search/blog/categorylogin.php"
+  },
+  {
+    "timestamp": "2025-09-27 05:48:55",
+    "event_type": "page_view",
+    "user_id": "user_148",
+    "device": "ios",
+    "session_id": "sess_7953",
+    "page_url": "https://www.ooo.org/app/categorymain.htm"
+  },
+  {
+    "timestamp": "2025-09-27 14:38:55",
+    "event_type": "session_start",
+    "user_id": "user_007",
+    "device": "desktop_windows",
+    "session_id": "sess_4483",
+    "page_url": "https://www.oao.ru/wp-contentterms.html"
+  },
+  {
+    "timestamp": "2025-09-27 19:25:55",
+    "event_type": "purchase",
+    "user_id": "user_047",
+    "device": "android",
+    "session_id": "sess_2453",
+    "page_url": "https://ooo.info/postslogin.html"
+  },
+  {
+    "timestamp": "2025-09-27 03:56:55",
+    "event_type": "purchase",
+    "user_id": "user_082",
+    "device": "android",
+    "session_id": "sess_4856",
+    "page_url": "https://www.zaharova.org/category/exploreterms.html"
+  },
+  {
+    "timestamp": "2025-09-27 06:35:55",
+    "event_type": "session_start",
+    "user_id": "user_129",
+    "device": "android",
+    "session_id": "sess_2327",
+    "page_url": "http://zao.biz/posts/blog/exploreterms.asp"
+  },
+  {
+    "timestamp": "2025-09-27 21:00:55",
+    "event_type": "purchase",
+    "user_id": "user_133",
+    "device": "ios",
+    "session_id": "sess_8055",
+    "page_url": "https://rao.info/mainfaq.htm"
+  },
+  {
+    "timestamp": "2025-09-27 00:28:55",
+    "event_type": "click",
+    "user_id": "user_072",
+    "device": "ios",
+    "session_id": "sess_6477",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 11:57:55",
+    "event_type": "click",
+    "user_id": "user_118",
+    "device": "android",
+    "session_id": "sess_9033",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 07:01:55",
+    "event_type": "click",
+    "user_id": "user_122",
+    "device": "ios",
+    "session_id": "sess_8863",
+    "page_url": "https://rao.net/category/tags/listabout.htm"
+  },
+  {
+    "timestamp": "2025-09-27 12:42:55",
+    "event_type": "purchase",
+    "user_id": "user_110",
+    "device": "desktop_windows",
+    "session_id": "sess_4079",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 05:50:55",
+    "event_type": "click",
+    "user_id": "user_058",
+    "device": "macos",
+    "session_id": "sess_8957",
+    "page_url": "https://npo.info/search/blogterms.asp"
+  },
+  {
+    "timestamp": "2025-09-27 22:22:55",
+    "event_type": "page_view",
+    "user_id": "user_035",
+    "device": "ios",
+    "session_id": "sess_1597",
+    "page_url": "https://kabanova.ru/tags/categoriesterms.php"
+  },
+  {
+    "timestamp": "2025-09-27 07:47:55",
+    "event_type": "session_start",
+    "user_id": "user_029",
+    "device": "ios",
+    "session_id": "sess_6105",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 02:36:55",
+    "event_type": "logout",
+    "user_id": "user_133",
+    "device": "ios",
+    "session_id": "sess_5354",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 20:08:55",
+    "event_type": "session_start",
+    "user_id": "user_104",
+    "device": "android",
+    "session_id": "sess_7382",
+    "page_url": "http://moskovskaja.biz/wp-content/mainpost.asp"
+  },
+  {
+    "timestamp": "2025-09-27 20:40:55",
+    "event_type": "purchase",
+    "user_id": "user_093",
+    "device": "macos",
+    "session_id": "sess_7770",
+    "page_url": "https://www.ao.biz/blogterms.html"
+  },
+  {
+    "timestamp": "2025-09-27 11:25:55",
+    "event_type": "purchase",
+    "user_id": "user_041",
+    "device": "ios",
+    "session_id": "sess_3235",
+    "page_url": "http://ooo.info/category/categoriescategory.php"
+  },
+  {
+    "timestamp": "2025-09-27 04:52:55",
+    "event_type": "click",
+    "user_id": "user_040",
+    "device": "android",
+    "session_id": "sess_4431",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 08:32:55",
+    "event_type": "purchase",
+    "user_id": "user_045",
+    "device": "macos",
+    "session_id": "sess_1414",
+    "page_url": "https://www.zao.biz/appauthor.html"
+  },
+  {
+    "timestamp": "2025-09-27 15:51:55",
+    "event_type": "session_start",
+    "user_id": "user_133",
+    "device": "android",
+    "session_id": "sess_1937",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 19:01:55",
+    "event_type": "session_start",
+    "user_id": "user_025",
+    "device": "macos",
+    "session_id": "sess_7971",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 18:58:55",
+    "event_type": "session_start",
+    "user_id": "user_127",
+    "device": "desktop_windows",
+    "session_id": "sess_2402",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 16:01:55",
+    "event_type": "page_view",
+    "user_id": "user_009",
+    "device": "ios",
+    "session_id": "sess_5912",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 15:06:55",
+    "event_type": "click",
+    "user_id": "user_083",
+    "device": "desktop_windows",
+    "session_id": "sess_7134",
+    "page_url": "https://www.rao.org/posts/postsmain.html"
+  },
+  {
+    "timestamp": "2025-09-27 05:39:55",
+    "event_type": "logout",
+    "user_id": "user_086",
+    "device": "macos",
+    "session_id": "sess_5562",
+    "page_url": "https://ribakov.biz/blog/categoriesabout.jsp"
+  },
+  {
+    "timestamp": "2025-09-27 00:43:55",
+    "event_type": "page_view",
+    "user_id": "user_017",
+    "device": "macos",
+    "session_id": "sess_1328",
+    "page_url": "http://www.en.ru/posts/search/explorefaq.htm"
+  },
+  {
+    "timestamp": "2025-09-27 14:03:55",
+    "event_type": "purchase",
+    "user_id": "user_042",
+    "device": "desktop_windows",
+    "session_id": "sess_1852",
+    "page_url": "http://www.zhukova.ru/tags/search/tagfaq.html"
+  },
+  {
+    "timestamp": "2025-09-27 05:26:55",
+    "event_type": "logout",
+    "user_id": "user_148",
+    "device": "ios",
+    "session_id": "sess_6937",
+    "page_url": "http://www.fedorov.ru/tagsterms.htm"
+  },
+  {
+    "timestamp": "2025-09-27 19:42:55",
+    "event_type": "purchase",
+    "user_id": "user_060",
+    "device": "android",
+    "session_id": "sess_3749",
+    "page_url": "https://oao.net/categories/posts/maincategory.jsp"
+  },
+  {
+    "timestamp": "2025-09-27 20:04:55",
+    "event_type": "logout",
+    "user_id": "user_112",
+    "device": "macos",
+    "session_id": "sess_2078",
+    "page_url": "https://www.oao.org/categoryhomepage.php"
+  },
+  {
+    "timestamp": "2025-09-27 08:30:55",
+    "event_type": "purchase",
+    "user_id": "user_129",
+    "device": "android",
+    "session_id": "sess_7709",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 02:43:55",
+    "event_type": "page_view",
+    "user_id": "user_009",
+    "device": "macos",
+    "session_id": "sess_5193",
+    "page_url": "http://arhipova.edu/tag/categoriesabout.html"
+  },
+  {
+    "timestamp": "2025-09-27 18:45:55",
+    "event_type": "session_start",
+    "user_id": "user_069",
+    "device": "macos",
+    "session_id": "sess_2377",
+    "page_url": "http://ooo.info/category/listfaq.htm"
+  },
+  {
+    "timestamp": "2025-09-27 10:14:55",
+    "event_type": "logout",
+    "user_id": "user_041",
+    "device": "ios",
+    "session_id": "sess_7664",
+    "page_url": null
+  },
+  {
+    "timestamp": "2025-09-27 06:42:55",
+    "event_type": "purchase",
+    "user_id": "user_058",
+    "device": "desktop_windows",
+    "session_id": "sess_7666",
+    "page_url": "https://www.rao.net/app/wp-content/categoryabout.php"
+  },
+  {
+    "timestamp": "2025-09-27 12:44:55",
+    "event_type": "purchase",
+    "user_id": "user_126",
+    "device": "ios",
+    "session_id": "sess_2177",
+    "page_url": "http://lebedeva.biz/postsprivacy.php"
+  },
+  {
+    "timestamp": "2025-09-27 15:00:55",
+    "event_type": "session_start",
+    "user_id": "user_145",
+    "device": "android",
+    "session_id": "sess_4952",
+    "page_url": "https://www.tretjakov.edu/wp-contentterms.php"
+  },
+  {
+    "timestamp": "2025-09-27 07:47:55",
+    "event_type": "session_start",
+    "user_id": "user_086",
+    "device": "ios",
+    "session_id": "sess_4011",
+    "page_url": "http://www.ip.biz/main/explore/exploreabout.php"
+  },
+  {
+    "timestamp": "2025-09-27 01:30:55",
+    "event_type": "logout",
+    "user_id": "user_030",
+    "device": "android",
+    "session_id": "sess_2447",
+    "page_url": "https://npo.com/posts/tagsprivacy.php"
+  },
+  {
+    "timestamp": "2025-09-27 17:31:55",
+    "event_type": "session_start",
+    "user_id": "user_051",
+    "device": "macos",
+    "session_id": "sess_6524",
+    "page_url": "https://www.astellas.edu/categoryhome.htm"
+  },
+  {
+    "timestamp": "2025-09-27 23:22:55",
+    "event_type": "click",
+    "user_id": "user_150",
+    "device": "ios",
+    "session_id": "sess_2111",
+    "page_url": "http://www.ao.ru/tagshomepage.htm"
+  },
+  {
+    "timestamp": "2025-09-27 20:39:55",
+    "event_type": "page_view",
+    "user_id": "user_135",
+    "device": "android",
+    "session_id": "sess_7444",
+    "page_url": "https://www.rao.biz/wp-contenthomepage.jsp"
+  },
+  {
+    "timestamp": "2025-09-27 22:58:55",
+    "event_type": "session_start",
+    "user_id": "user_030",
+    "device": "android",
+    "session_id": "sess_8880",
+    "page_url": "http://ao.com/tagsauthor.html"
+  },
+  {
+    "timestamp": "2025-09-27 03:41:55",
+    "event_type": "logout",
+    "user_id": "user_059",
+    "device": "android",
+    "session_id": "sess_9240",
+    "page_url": "https://npo.ru/categorycategory.html"
+  }
+]

@@ -72,7 +72,7 @@ def load_all_to_minio():
 
 with DAG(
         'initial_data_pipeline',
-        start_date=datetime(2024, 12, 25),
+        start_date=datetime(2025, 9, 30),
         schedule_interval=None,
         catchup=False,
 ) as dag:

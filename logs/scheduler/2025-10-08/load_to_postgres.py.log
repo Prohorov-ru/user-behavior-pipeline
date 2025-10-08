@@ -1,0 +1,1372 @@
+[2025-10-08T18:06:01.517+0000] {processor.py:157} INFO - Started process (PID=174) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:06:01.518+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:06:01.519+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:06:01.518+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:06:02.864+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:06:02.863+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:06:02.865+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:06:02.876+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 1.361 seconds
+[2025-10-08T18:06:33.117+0000] {processor.py:157} INFO - Started process (PID=206) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:06:33.119+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:06:33.120+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:06:33.120+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:06:33.486+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:06:33.485+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:06:33.487+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:06:33.501+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.388 seconds
+[2025-10-08T18:07:03.639+0000] {processor.py:157} INFO - Started process (PID=227) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:07:03.640+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:07:03.641+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:07:03.640+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:07:03.993+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:07:03.992+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:07:03.993+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:07:04.006+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.372 seconds
+[2025-10-08T18:07:34.135+0000] {processor.py:157} INFO - Started process (PID=248) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:07:34.137+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:07:34.138+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:07:34.138+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:07:34.532+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:07:34.531+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:07:34.532+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:07:34.548+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.417 seconds
+[2025-10-08T18:08:04.670+0000] {processor.py:157} INFO - Started process (PID=269) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:08:04.671+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:08:04.672+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:08:04.671+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:08:05.019+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:08:05.018+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:08:05.019+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:08:05.034+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.367 seconds
+[2025-10-08T18:08:35.170+0000] {processor.py:157} INFO - Started process (PID=290) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:08:35.171+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:08:35.172+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:08:35.172+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:08:35.530+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:08:35.529+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:08:35.530+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:08:35.544+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.379 seconds
+[2025-10-08T18:09:05.674+0000] {processor.py:157} INFO - Started process (PID=311) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:09:05.675+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:09:05.676+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:09:05.676+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:09:06.014+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:09:06.013+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:09:06.015+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:09:06.030+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.361 seconds
+[2025-10-08T18:09:36.161+0000] {processor.py:157} INFO - Started process (PID=332) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:09:36.161+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:09:36.162+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:09:36.162+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:09:36.585+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:09:36.584+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:09:36.585+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:09:36.601+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.444 seconds
+[2025-10-08T18:10:06.703+0000] {processor.py:157} INFO - Started process (PID=353) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:10:06.704+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:10:06.704+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:10:06.704+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:10:07.058+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:10:07.057+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:10:07.058+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:10:07.074+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.374 seconds
+[2025-10-08T18:10:37.295+0000] {processor.py:157} INFO - Started process (PID=374) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:10:37.296+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:10:37.297+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:10:37.297+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:10:37.675+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:10:37.674+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:10:37.675+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:10:37.691+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.401 seconds
+[2025-10-08T18:11:07.915+0000] {processor.py:157} INFO - Started process (PID=395) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:11:07.916+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:11:07.917+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:11:07.917+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:11:08.324+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:11:08.323+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:11:08.324+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:11:08.337+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.426 seconds
+[2025-10-08T18:11:38.573+0000] {processor.py:157} INFO - Started process (PID=416) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:11:38.574+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:11:38.575+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:11:38.574+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:11:38.822+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:11:38.820+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:11:38.822+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:11:38.835+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.264 seconds
+[2025-10-08T18:12:08.972+0000] {processor.py:157} INFO - Started process (PID=437) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:12:08.973+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:12:08.975+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:12:08.974+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:12:09.221+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:12:09.220+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:12:09.222+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:12:09.237+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.270 seconds
+[2025-10-08T18:12:39.372+0000] {processor.py:157} INFO - Started process (PID=458) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:12:39.373+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:12:39.373+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:12:39.373+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:12:39.647+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:12:39.645+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:12:39.648+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:12:39.664+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.296 seconds
+[2025-10-08T18:13:09.807+0000] {processor.py:157} INFO - Started process (PID=479) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:13:09.808+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:13:09.809+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:13:09.809+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:13:10.061+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:13:10.060+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:13:10.062+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:13:10.078+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.275 seconds
+[2025-10-08T18:42:12.702+0000] {processor.py:157} INFO - Started process (PID=174) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:42:12.703+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:42:12.703+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:42:12.703+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:42:13.916+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:42:13.915+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:42:13.916+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:42:13.930+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 1.231 seconds
+[2025-10-08T18:42:44.142+0000] {processor.py:157} INFO - Started process (PID=206) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:42:44.143+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:42:44.143+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:42:44.143+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:42:44.509+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:42:44.507+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:42:44.509+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:42:44.524+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.387 seconds
+[2025-10-08T18:43:14.625+0000] {processor.py:157} INFO - Started process (PID=227) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:43:14.626+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:43:14.627+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:43:14.627+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:43:14.995+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:43:14.994+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:43:14.995+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:43:15.009+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.390 seconds
+[2025-10-08T18:43:45.115+0000] {processor.py:157} INFO - Started process (PID=248) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:43:45.117+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:43:45.118+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:43:45.117+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:43:45.470+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:43:45.469+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:43:45.470+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:43:45.485+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.374 seconds
+[2025-10-08T18:44:15.606+0000] {processor.py:157} INFO - Started process (PID=269) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:44:15.608+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:44:15.608+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:44:15.608+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:44:15.952+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:44:15.951+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:44:15.952+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:44:15.964+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.363 seconds
+[2025-10-08T18:44:46.094+0000] {processor.py:157} INFO - Started process (PID=290) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:44:46.096+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:44:46.097+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:44:46.096+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:44:46.440+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:44:46.439+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:44:46.441+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:44:46.453+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.364 seconds
+[2025-10-08T18:45:16.580+0000] {processor.py:157} INFO - Started process (PID=311) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:45:16.582+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:45:16.583+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:45:16.582+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:45:16.933+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:45:16.932+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:45:16.933+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:45:16.947+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.371 seconds
+[2025-10-08T18:45:47.065+0000] {processor.py:157} INFO - Started process (PID=332) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:45:47.066+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:45:47.066+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:45:47.066+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:45:47.411+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:45:47.410+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:45:47.411+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:45:47.425+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.363 seconds
+[2025-10-08T18:46:17.481+0000] {processor.py:157} INFO - Started process (PID=353) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:46:17.482+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:46:17.483+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:46:17.483+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:46:17.837+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:46:17.836+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:46:17.838+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:46:17.852+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.376 seconds
+[2025-10-08T18:46:47.990+0000] {processor.py:157} INFO - Started process (PID=374) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:46:47.991+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:46:47.992+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:46:47.992+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:46:48.355+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:46:48.354+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:46:48.355+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:46:48.370+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.386 seconds
+[2025-10-08T18:47:18.599+0000] {processor.py:157} INFO - Started process (PID=395) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:47:18.600+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:47:18.601+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:47:18.601+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:47:18.943+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:47:18.942+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:47:18.943+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:47:18.956+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.362 seconds
+[2025-10-08T18:47:49.189+0000] {processor.py:157} INFO - Started process (PID=416) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:47:49.190+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:47:49.191+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:47:49.191+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:47:49.445+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:47:49.444+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:47:49.446+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:47:49.461+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.277 seconds
+[2025-10-08T18:48:19.593+0000] {processor.py:157} INFO - Started process (PID=437) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:48:19.595+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:48:19.596+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:48:19.596+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:48:19.851+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:48:19.850+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:48:19.852+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:48:19.865+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.276 seconds
+[2025-10-08T18:48:49.992+0000] {processor.py:157} INFO - Started process (PID=458) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:48:49.993+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:48:49.994+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:48:49.994+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:48:50.249+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:48:50.247+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:48:50.249+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:48:50.262+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.274 seconds
+[2025-10-08T18:49:20.396+0000] {processor.py:157} INFO - Started process (PID=479) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:49:20.398+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:49:20.399+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:49:20.398+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:49:20.650+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:49:20.648+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:49:20.650+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:49:20.666+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.274 seconds
+[2025-10-08T18:49:50.790+0000] {processor.py:157} INFO - Started process (PID=500) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:49:50.791+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:49:50.792+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:49:50.792+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:49:51.040+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:49:51.039+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:49:51.041+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:49:51.055+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.269 seconds
+[2025-10-08T18:50:21.187+0000] {processor.py:157} INFO - Started process (PID=521) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:50:21.189+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:50:21.190+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:50:21.190+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:50:21.436+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:50:21.435+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:50:21.436+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:50:21.452+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.270 seconds
+[2025-10-08T18:50:51.582+0000] {processor.py:157} INFO - Started process (PID=542) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:50:51.583+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:50:51.584+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:50:51.583+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:50:51.833+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:50:51.832+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:50:51.833+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:50:51.849+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.272 seconds
+[2025-10-08T18:51:21.977+0000] {processor.py:157} INFO - Started process (PID=563) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:51:21.979+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:51:21.980+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:51:21.980+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:51:22.228+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:51:22.226+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:51:22.228+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:51:22.241+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.268 seconds
+[2025-10-08T18:51:52.372+0000] {processor.py:157} INFO - Started process (PID=584) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:51:52.373+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:51:52.374+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:51:52.374+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:51:52.625+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:51:52.623+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:51:52.625+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:51:52.640+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.273 seconds
+[2025-10-08T18:52:22.776+0000] {processor.py:157} INFO - Started process (PID=605) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:52:22.777+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:52:22.778+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:52:22.778+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:52:23.028+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:52:23.026+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:52:23.028+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:52:23.043+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.272 seconds
+[2025-10-08T18:52:53.177+0000] {processor.py:157} INFO - Started process (PID=626) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:52:53.178+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:52:53.179+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:52:53.179+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:52:53.429+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:52:53.427+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:52:53.429+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:52:53.444+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.272 seconds
+[2025-10-08T18:53:23.573+0000] {processor.py:157} INFO - Started process (PID=647) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:53:23.574+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:53:23.575+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:53:23.574+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:53:23.822+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:53:23.821+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:53:23.822+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:53:23.838+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.269 seconds
+[2025-10-08T18:53:53.964+0000] {processor.py:157} INFO - Started process (PID=668) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:53:53.966+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:53:53.967+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:53:53.967+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:53:54.215+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:53:54.214+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:53:54.216+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:53:54.232+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.272 seconds
+[2025-10-08T18:54:24.365+0000] {processor.py:157} INFO - Started process (PID=689) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:54:24.367+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:54:24.368+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:54:24.367+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:54:24.617+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:54:24.616+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:54:24.618+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:54:24.633+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.273 seconds
+[2025-10-08T18:54:54.766+0000] {processor.py:157} INFO - Started process (PID=710) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:54:54.767+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:54:54.768+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:54:54.768+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:54:55.016+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:54:55.014+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:54:55.016+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:54:55.030+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.268 seconds
+[2025-10-08T18:55:25.164+0000] {processor.py:157} INFO - Started process (PID=731) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:55:25.166+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:55:25.166+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:55:25.166+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:55:25.414+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:55:25.412+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:55:25.414+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:55:25.430+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.271 seconds
+[2025-10-08T18:55:55.565+0000] {processor.py:157} INFO - Started process (PID=752) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:55:55.566+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:55:55.567+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:55:55.567+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:55:55.815+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:55:55.814+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:55:55.816+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:55:55.831+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.271 seconds
+[2025-10-08T18:56:25.965+0000] {processor.py:157} INFO - Started process (PID=773) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:56:25.966+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:56:25.967+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:56:25.966+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:56:26.213+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:56:26.212+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:56:26.213+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:56:26.227+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.267 seconds
+[2025-10-08T18:56:56.362+0000] {processor.py:157} INFO - Started process (PID=794) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:56:56.363+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:56:56.364+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:56:56.364+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:56:56.612+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:56:56.611+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:56:56.612+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:56:56.628+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.271 seconds
+[2025-10-08T18:57:26.758+0000] {processor.py:157} INFO - Started process (PID=815) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:57:26.759+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:57:26.760+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:57:26.760+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:57:27.011+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:57:27.009+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:57:27.011+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:57:27.024+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.270 seconds
+[2025-10-08T18:57:57.159+0000] {processor.py:157} INFO - Started process (PID=836) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:57:57.160+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:57:57.161+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:57:57.161+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:57:57.409+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:57:57.408+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:57:57.410+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:57:57.425+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.271 seconds
+[2025-10-08T18:58:27.554+0000] {processor.py:157} INFO - Started process (PID=857) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:58:27.555+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:58:27.556+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:58:27.556+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:58:27.804+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:58:27.802+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:58:27.804+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:58:27.820+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.270 seconds
+[2025-10-08T18:58:57.942+0000] {processor.py:157} INFO - Started process (PID=878) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:58:57.944+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:58:57.945+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:58:57.944+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:58:58.196+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:58:58.194+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:58:58.196+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:58:58.212+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.274 seconds
+[2025-10-08T18:59:28.341+0000] {processor.py:157} INFO - Started process (PID=899) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:59:28.342+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:59:28.343+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:59:28.342+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:59:28.591+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:59:28.590+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:59:28.592+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:59:28.607+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.271 seconds
+[2025-10-08T18:59:58.735+0000] {processor.py:157} INFO - Started process (PID=920) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:59:58.736+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T18:59:58.737+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:59:58.737+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:59:58.988+0000] {logging_mixin.py:151} INFO - [2025-10-08T18:59:58.987+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T18:59:58.988+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T18:59:59.004+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.274 seconds
+[2025-10-08T19:00:29.137+0000] {processor.py:157} INFO - Started process (PID=941) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:00:29.138+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T19:00:29.139+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:00:29.139+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:00:29.392+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:00:29.391+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T19:00:29.392+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:00:29.408+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.276 seconds
+[2025-10-08T19:00:59.537+0000] {processor.py:157} INFO - Started process (PID=962) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:00:59.538+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T19:00:59.539+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:00:59.539+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:00:59.789+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:00:59.788+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T19:00:59.790+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:00:59.805+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.272 seconds
+[2025-10-08T19:01:29.933+0000] {processor.py:157} INFO - Started process (PID=983) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:01:29.934+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T19:01:29.935+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:01:29.935+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:01:30.184+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:01:30.182+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T19:01:30.184+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:01:30.200+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.270 seconds
+[2025-10-08T19:02:00.333+0000] {processor.py:157} INFO - Started process (PID=1004) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:02:00.335+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T19:02:00.335+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:02:00.335+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:02:00.582+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:02:00.581+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T19:02:00.583+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:02:00.598+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.270 seconds
+[2025-10-08T19:02:30.743+0000] {processor.py:157} INFO - Started process (PID=1025) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:02:30.744+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T19:02:30.745+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:02:30.745+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:02:30.997+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:02:30.996+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T19:02:30.997+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:02:31.013+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.274 seconds
+[2025-10-08T19:03:01.147+0000] {processor.py:157} INFO - Started process (PID=1046) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:03:01.148+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T19:03:01.149+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:03:01.149+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:03:01.398+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:03:01.397+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T19:03:01.398+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:03:01.413+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.271 seconds
+[2025-10-08T19:03:31.541+0000] {processor.py:157} INFO - Started process (PID=1067) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:03:31.542+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T19:03:31.543+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:03:31.543+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:03:31.790+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:03:31.789+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T19:03:31.790+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:03:31.806+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.270 seconds
+[2025-10-08T19:04:01.930+0000] {processor.py:157} INFO - Started process (PID=1088) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:04:01.931+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T19:04:01.932+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:04:01.932+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:04:02.185+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:04:02.183+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T19:04:02.185+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:04:02.201+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.275 seconds
+[2025-10-08T19:04:32.324+0000] {processor.py:157} INFO - Started process (PID=1109) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:04:32.325+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T19:04:32.326+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:04:32.326+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:04:32.574+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:04:32.572+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T19:04:32.574+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:04:32.588+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.269 seconds
+[2025-10-08T19:05:02.717+0000] {processor.py:157} INFO - Started process (PID=1130) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:05:02.719+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T19:05:02.720+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:05:02.719+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:05:02.970+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:05:02.968+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T19:05:02.970+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:05:02.983+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.270 seconds
+[2025-10-08T19:05:33.108+0000] {processor.py:157} INFO - Started process (PID=1151) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:05:33.109+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T19:05:33.110+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:05:33.109+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:05:33.359+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:05:33.357+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T19:05:33.359+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:05:33.376+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.273 seconds
+[2025-10-08T19:06:03.510+0000] {processor.py:157} INFO - Started process (PID=1172) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:06:03.511+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T19:06:03.512+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:06:03.512+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:06:03.768+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:06:03.766+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T19:06:03.768+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:06:03.784+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.278 seconds
+[2025-10-08T19:06:33.913+0000] {processor.py:157} INFO - Started process (PID=1193) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:06:33.915+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T19:06:33.916+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:06:33.915+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:06:34.169+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:06:34.167+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T19:06:34.169+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:06:34.182+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.273 seconds
+[2025-10-08T19:07:04.311+0000] {processor.py:157} INFO - Started process (PID=1214) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:07:04.312+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T19:07:04.313+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:07:04.312+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:07:04.562+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:07:04.560+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T19:07:04.562+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:07:04.577+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.271 seconds
+[2025-10-08T19:07:34.701+0000] {processor.py:157} INFO - Started process (PID=1235) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:07:34.703+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T19:07:34.704+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:07:34.704+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:07:34.959+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:07:34.957+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T19:07:34.959+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:07:34.975+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.278 seconds
+[2025-10-08T19:08:05.094+0000] {processor.py:157} INFO - Started process (PID=1256) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:08:05.095+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T19:08:05.096+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:08:05.096+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:08:05.350+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:08:05.348+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T19:08:05.350+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:08:05.365+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.276 seconds
+[2025-10-08T19:08:35.493+0000] {processor.py:157} INFO - Started process (PID=1277) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:08:35.494+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T19:08:35.495+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:08:35.495+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:08:35.747+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:08:35.745+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T19:08:35.747+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:08:35.761+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.273 seconds
+[2025-10-08T19:09:05.886+0000] {processor.py:157} INFO - Started process (PID=1298) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:09:05.887+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T19:09:05.888+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:09:05.888+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:09:06.152+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:09:06.150+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T19:09:06.152+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:09:06.168+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.287 seconds
+[2025-10-08T19:09:36.312+0000] {processor.py:157} INFO - Started process (PID=1319) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:09:36.313+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T19:09:36.314+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:09:36.314+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:09:36.620+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:09:36.618+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T19:09:36.621+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:09:36.637+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.330 seconds
+[2025-10-08T19:10:06.741+0000] {processor.py:157} INFO - Started process (PID=1343) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:10:06.742+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T19:10:06.744+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:10:06.743+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:10:07.248+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:10:07.245+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T19:10:07.249+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:10:07.272+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.535 seconds
+[2025-10-08T19:10:37.388+0000] {processor.py:157} INFO - Started process (PID=1366) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:10:37.389+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T19:10:37.390+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:10:37.390+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:10:37.646+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:10:37.644+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T19:10:37.646+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:10:37.663+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.279 seconds
+[2025-10-08T19:11:07.797+0000] {processor.py:157} INFO - Started process (PID=1387) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:11:07.798+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T19:11:07.799+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:11:07.798+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:11:08.057+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:11:08.056+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T19:11:08.058+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:11:08.076+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.284 seconds
+[2025-10-08T19:11:38.194+0000] {processor.py:157} INFO - Started process (PID=1408) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:11:38.195+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T19:11:38.196+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:11:38.195+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:11:38.459+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:11:38.458+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T19:11:38.460+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:11:38.476+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.287 seconds
+[2025-10-08T19:12:08.586+0000] {processor.py:157} INFO - Started process (PID=1435) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:12:08.587+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T19:12:08.588+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:12:08.588+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:12:08.847+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:12:08.845+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T19:12:08.847+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:12:08.863+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.282 seconds
+[2025-10-08T19:12:38.982+0000] {processor.py:157} INFO - Started process (PID=1456) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:12:38.983+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T19:12:38.984+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:12:38.983+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:12:39.243+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:12:39.242+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T19:12:39.244+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:12:39.261+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.281 seconds
+[2025-10-08T19:13:09.393+0000] {processor.py:157} INFO - Started process (PID=1483) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:13:09.394+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T19:13:09.394+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:13:09.394+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:13:09.647+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:13:09.646+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T19:13:09.648+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:13:09.663+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.273 seconds
+[2025-10-08T19:13:39.781+0000] {processor.py:157} INFO - Started process (PID=1511) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:13:39.782+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T19:13:39.783+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:13:39.783+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:13:40.037+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:13:40.035+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T19:13:40.037+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:13:40.053+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.274 seconds
+[2025-10-08T19:14:10.178+0000] {processor.py:157} INFO - Started process (PID=1532) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:14:10.179+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T19:14:10.180+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:14:10.180+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:14:10.432+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:14:10.430+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T19:14:10.432+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:14:10.449+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.276 seconds
+[2025-10-08T19:14:40.571+0000] {processor.py:157} INFO - Started process (PID=1553) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:14:40.573+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T19:14:40.574+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:14:40.573+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:14:40.835+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:14:40.834+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T19:14:40.836+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:14:40.850+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.283 seconds
+[2025-10-08T19:15:10.963+0000] {processor.py:157} INFO - Started process (PID=1574) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:15:10.964+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T19:15:10.964+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:15:10.964+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:15:11.227+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:15:11.226+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T19:15:11.228+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:15:11.245+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.286 seconds
+[2025-10-08T19:17:43.128+0000] {processor.py:157} INFO - Started process (PID=174) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:17:43.129+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T19:17:43.129+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:17:43.129+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:17:43.659+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:17:43.658+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T19:17:43.660+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:17:43.674+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.549 seconds
+[2025-10-08T19:18:13.762+0000] {processor.py:157} INFO - Started process (PID=196) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:18:13.763+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T19:18:13.764+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:18:13.764+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:18:14.099+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:18:14.098+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T19:18:14.099+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:18:14.113+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.355 seconds
+[2025-10-08T19:18:44.281+0000] {processor.py:157} INFO - Started process (PID=217) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:18:44.282+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T19:18:44.283+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:18:44.282+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:18:44.638+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:18:44.637+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T19:18:44.639+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:18:44.653+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.376 seconds
+[2025-10-08T19:19:14.812+0000] {processor.py:157} INFO - Started process (PID=238) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:19:14.813+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T19:19:14.814+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:19:14.814+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:19:15.153+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:19:15.152+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T19:19:15.153+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:19:15.165+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.358 seconds
+[2025-10-08T19:19:45.317+0000] {processor.py:157} INFO - Started process (PID=259) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:19:45.319+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T19:19:45.320+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:19:45.320+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:19:45.660+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:19:45.659+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T19:19:45.660+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:19:45.675+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.362 seconds
+[2025-10-08T19:20:15.848+0000] {processor.py:157} INFO - Started process (PID=280) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:20:15.849+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T19:20:15.850+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:20:15.850+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:20:16.179+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:20:16.178+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T19:20:16.179+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:20:16.193+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.350 seconds
+[2025-10-08T19:20:46.359+0000] {processor.py:157} INFO - Started process (PID=301) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:20:46.360+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T19:20:46.361+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:20:46.361+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:20:46.696+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:20:46.695+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T19:20:46.696+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:20:46.710+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.356 seconds
+[2025-10-08T19:21:16.880+0000] {processor.py:157} INFO - Started process (PID=322) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:21:16.881+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T19:21:16.882+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:21:16.882+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:21:17.216+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:21:17.215+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T19:21:17.216+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:21:17.229+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.353 seconds
+[2025-10-08T19:21:47.390+0000] {processor.py:157} INFO - Started process (PID=343) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:21:47.392+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T19:21:47.393+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:21:47.392+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:21:47.724+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:21:47.723+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T19:21:47.724+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:21:47.738+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.352 seconds
+[2025-10-08T19:22:17.896+0000] {processor.py:157} INFO - Started process (PID=364) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:22:17.897+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T19:22:17.898+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:22:17.898+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:22:18.228+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:22:18.227+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T19:22:18.228+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:22:18.240+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.349 seconds
+[2025-10-08T19:22:48.419+0000] {processor.py:157} INFO - Started process (PID=385) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:22:48.421+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T19:22:48.421+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:22:48.421+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:22:48.752+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:22:48.751+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T19:22:48.752+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:22:48.766+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.351 seconds
+[2025-10-08T19:23:18.923+0000] {processor.py:157} INFO - Started process (PID=406) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:23:18.925+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T19:23:18.926+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:23:18.925+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:23:19.265+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:23:19.264+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T19:23:19.265+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:23:19.277+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.358 seconds
+[2025-10-08T19:23:49.438+0000] {processor.py:157} INFO - Started process (PID=427) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:23:49.440+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T19:23:49.441+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:23:49.440+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:23:49.777+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:23:49.776+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T19:23:49.777+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:23:49.790+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.356 seconds
+[2025-10-08T19:24:19.953+0000] {processor.py:157} INFO - Started process (PID=448) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:24:19.954+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T19:24:19.955+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:24:19.954+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:24:20.300+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:24:20.300+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T19:24:20.301+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:24:20.315+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.366 seconds
+[2025-10-08T19:24:50.578+0000] {processor.py:157} INFO - Started process (PID=469) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:24:50.579+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T19:24:50.580+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:24:50.580+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:24:50.829+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:24:50.828+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T19:24:50.829+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:24:50.844+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.271 seconds
+[2025-10-08T19:25:21.007+0000] {processor.py:157} INFO - Started process (PID=490) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:25:21.009+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T19:25:21.010+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:25:21.009+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:25:21.264+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:25:21.262+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T19:25:21.264+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:25:21.279+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.276 seconds
+[2025-10-08T19:25:51.436+0000] {processor.py:157} INFO - Started process (PID=511) to work on /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:25:51.438+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/load_to_postgres.py for tasks to queue
+[2025-10-08T19:25:51.439+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:25:51.439+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:25:51.684+0000] {logging_mixin.py:151} INFO - [2025-10-08T19:25:51.682+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/load_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_to_postgres.py", line 6, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2025-10-08T19:25:51.684+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/load_to_postgres.py
+[2025-10-08T19:25:51.700+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_to_postgres.py took 0.268 seconds

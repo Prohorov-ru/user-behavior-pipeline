@@ -1,0 +1,30 @@
+[2025-10-03T12:25:41.370+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: initial_data_pipeline.generate_initial_data manual__2025-10-03T12:25:39.617119+00:00 [queued]>
+[2025-10-03T12:25:41.376+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: initial_data_pipeline.generate_initial_data manual__2025-10-03T12:25:39.617119+00:00 [queued]>
+[2025-10-03T12:25:41.376+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2025-10-03T12:25:41.387+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): generate_initial_data> on 2025-10-03 12:25:39.617119+00:00
+[2025-10-03T12:25:41.392+0000] {standard_task_runner.py:57} INFO - Started process 3355 to run task
+[2025-10-03T12:25:41.396+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'initial_data_pipeline', 'generate_initial_data', 'manual__2025-10-03T12:25:39.617119+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/initial_data_pipeline.py', '--cfg-path', '/tmp/tmpquvxf2y9']
+[2025-10-03T12:25:41.400+0000] {standard_task_runner.py:85} INFO - Job 5: Subtask generate_initial_data
+[2025-10-03T12:25:41.443+0000] {task_command.py:415} INFO - Running <TaskInstance: initial_data_pipeline.generate_initial_data manual__2025-10-03T12:25:39.617119+00:00 [running]> on host f57acbeabe06
+[2025-10-03T12:25:41.513+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='initial_data_pipeline' AIRFLOW_CTX_TASK_ID='generate_initial_data' AIRFLOW_CTX_EXECUTION_DATE='2025-10-03T12:25:39.617119+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-10-03T12:25:39.617119+00:00'
+[2025-10-03T12:25:41.541+0000] {taskinstance.py:1943} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/initial_data_pipeline.py", line 17, in generate_initial_data
+    raise Exception(f"Script failed: {result.stderr}")
+Exception: Script failed: Traceback (most recent call last):
+  File "/opt/***/scripts/generate_data.py", line 4, in <module>
+    from faker import Faker
+ModuleNotFoundError: No module named 'faker'
+
+[2025-10-03T12:25:41.553+0000] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=initial_data_pipeline, task_id=generate_initial_data, execution_date=20251003T122539, start_date=20251003T122541, end_date=20251003T122541
+[2025-10-03T12:25:41.572+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 5 for task generate_initial_data (Script failed: Traceback (most recent call last):
+  File "/opt/***/scripts/generate_data.py", line 4, in <module>
+    from faker import Faker
+ModuleNotFoundError: No module named 'faker'
+; 3355)
+[2025-10-03T12:25:41.607+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2025-10-03T12:25:41.639+0000] {taskinstance.py:2784} INFO - 0 downstream tasks scheduled from follow-on schedule check

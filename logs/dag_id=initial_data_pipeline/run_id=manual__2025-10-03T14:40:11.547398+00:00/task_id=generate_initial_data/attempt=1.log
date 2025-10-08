@@ -1,0 +1,14 @@
+[2025-10-03T14:40:12.124+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: initial_data_pipeline.generate_initial_data manual__2025-10-03T14:40:11.547398+00:00 [queued]>
+[2025-10-03T14:40:12.130+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: initial_data_pipeline.generate_initial_data manual__2025-10-03T14:40:11.547398+00:00 [queued]>
+[2025-10-03T14:40:12.130+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2025-10-03T14:40:12.140+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): generate_initial_data> on 2025-10-03 14:40:11.547398+00:00
+[2025-10-03T14:40:12.146+0000] {standard_task_runner.py:57} INFO - Started process 572 to run task
+[2025-10-03T14:40:12.149+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'initial_data_pipeline', 'generate_initial_data', 'manual__2025-10-03T14:40:11.547398+00:00', '--job-id', '11', '--raw', '--subdir', 'DAGS_FOLDER/initial_data_pipeline.py', '--cfg-path', '/tmp/tmpq2_ukdwr']
+[2025-10-03T14:40:12.151+0000] {standard_task_runner.py:85} INFO - Job 11: Subtask generate_initial_data
+[2025-10-03T14:40:12.196+0000] {task_command.py:415} INFO - Running <TaskInstance: initial_data_pipeline.generate_initial_data manual__2025-10-03T14:40:11.547398+00:00 [running]> on host 38cb3f89ee79
+[2025-10-03T14:40:12.271+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='initial_data_pipeline' AIRFLOW_CTX_TASK_ID='generate_initial_data' AIRFLOW_CTX_EXECUTION_DATE='2025-10-03T14:40:11.547398+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-10-03T14:40:11.547398+00:00'
+[2025-10-03T14:40:12.577+0000] {logging_mixin.py:151} INFO - ✅ Данные сгенерированы
+[2025-10-03T14:40:12.577+0000] {python.py:194} INFO - Done. Returned value was: Данные сгенерированы
+[2025-10-03T14:40:12.612+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=initial_data_pipeline, task_id=generate_initial_data, execution_date=20251003T144011, start_date=20251003T144012, end_date=20251003T144012
+[2025-10-03T14:40:12.641+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-10-03T14:40:12.670+0000] {taskinstance.py:2784} INFO - 1 downstream tasks scheduled from follow-on schedule check

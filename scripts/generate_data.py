@@ -8,19 +8,24 @@ import random
 import sys
 from datetime import datetime, timedelta
 
+
 # Функция проверяет и создает необходимые папки для данных.
 def setup_environment():
     try:
-        data_path = '/opt/airflow/generated_data'   # Путь к папке generated_data в контейнере Airflow.
+        data_path = '/opt/airflow/generated_data'  # Путь к папке generated_data в контейнере Airflow.
 
-        os.makedirs(data_path, exist_ok=True)   # Создаем основную папку если не существует.
+        os.makedirs(data_path, exist_ok=True)  # Создаем основную папку если не существует.
 
-        timestamp = datetime.now().strftime("%d-%m-%Y")   # Создаем подпапку с текущей датой.
-        timestamp_folder = os.path.join(data_path, timestamp)
-        os.makedirs(timestamp_folder, exist_ok=True)
+        # Создаем папки за последние 7 дней.
+        for i in range(7):
+            date = datetime.now() - timedelta(days=i)
+            timestamp = date.strftime("%d-%m-%Y")
+            timestamp_folder = os.path.join(data_path, timestamp)
+            os.makedirs(timestamp_folder, exist_ok=True)
+            print(f"📁 Создана папка: {timestamp}")
 
-        print(f"📁 Данные будут сохранены в: {timestamp_folder}")
-        return timestamp_folder
+        print(f"📁 Папки созданы за последние 7 дней")
+        return data_path
 
     except Exception as e:
         print(f"❌ Ошибка создания папок: {e}")
@@ -58,9 +63,12 @@ def generate_user_behavior(num_events=1000, num_users=150):
 
     events = []
     for _ in range(num_events):
+        # Случайная дата за последние 7 дней.
+        days_ago = random.randint(0, 6)
+        event_date = datetime.now() - timedelta(days=days_ago)
+
         event = {
-            'timestamp': (datetime.now() - timedelta(
-                days=random.randint(0, 30),
+            'timestamp': (event_date - timedelta(
                 hours=random.randint(0, 23),
                 minutes=random.randint(0, 59)
             )).strftime('%Y-%m-%d %H:%M:%S'),
@@ -76,22 +84,47 @@ def generate_user_behavior(num_events=1000, num_users=150):
     return events
 
 
-# Сохранение данных в JSON файл.
-def save_data(data, filename, folder_path):
+# Сохранение данных в JSON файлы по дням.
+def save_data_to_multiple_days(data, filename, base_folder):
+    """Сохраняет данные в папки соответствующих дат"""
     try:
-        filepath = os.path.join(folder_path, filename)
-        with open(filepath, 'w', encoding='utf-8') as file:
-            json.dump(data, file, ensure_ascii=False, indent=2)
-        print(f"💾 Сохранено: {filename}")
-        return filepath
+        # Для пользователей (без timestamp) сохраняем во все папки.
+        if 'timestamp' not in data[0]:
+            for folder in os.listdir(base_folder):
+                folder_path = os.path.join(base_folder, folder)
+                if os.path.isdir(folder_path):
+                    filepath = os.path.join(folder_path, filename)
+                    with open(filepath, 'w', encoding='utf-8') as file:
+                        json.dump(data, file, ensure_ascii=False, indent=2)
+                    print(f"💾 Сохранено: {folder}/{filename}")
+            return
+
+        # Для событий группируем по датам.
+        events_by_date = {}
+        for item in data:
+            event_date = datetime.strptime(item['timestamp'], '%Y-%m-%d %H:%M:%S')
+            date_str = event_date.strftime("%d-%m-%Y")
+
+            if date_str not in events_by_date:
+                events_by_date[date_str] = []
+            events_by_date[date_str].append(item)
+
+        # Сохраняем события по датам.
+        for date_str, date_events in events_by_date.items():
+            folder_path = os.path.join(base_folder, date_str)
+            if os.path.exists(folder_path):
+                filepath = os.path.join(folder_path, filename)
+                with open(filepath, 'w', encoding='utf-8') as file:
+                    json.dump(date_events, file, ensure_ascii=False, indent=2)
+                print(f"💾 Сохранено: {date_str}/{filename} ({len(date_events)} событий)")
+
     except Exception as e:
         print(f"❌ Ошибка сохранения {filename}: {e}")
-        return None
 
 
 def main():
     # Основная функция генерации данных.
-    print("🚀 Запуск генерации синтетических данных...")
+    print("🚀 Запуск генерации синтетических данных за 7 дней...")
 
     # Настройка окружения.
     output_folder = setup_environment()
@@ -100,15 +133,15 @@ def main():
     users = generate_user_profiles(150)
     events = generate_user_behavior(1000, 150)
 
-    # Сохранение данных.
-    save_data(users, 'user_profiles.json', output_folder)
-    save_data(events, 'user_behavior_events.json', output_folder)
+    # Сохранение данных по дням.
+    save_data_to_multiple_days(users, 'user_profiles.json', output_folder)
+    save_data_to_multiple_days(events, 'user_behavior_events.json', output_folder)
 
     # Статистика.
     print("\n📈 Статистика генерации:")
     print(f"   • Пользователей: {len(users)}")
     print(f"   • Событий: {len(events)}")
-    print(f"   • Период событий: последние 30 дней")
+    print(f"   • Период событий: последние 7 дней")
     print(f"   • Папка с данными: {output_folder}")
     print("\n✅ Генерация данных завершена успешно!")
 

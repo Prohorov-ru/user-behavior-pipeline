@@ -1,16 +1,14 @@
-version: '3.8'
-
 x-airflow-common: &airflow-common
   image: apache/airflow:2.7.0
   environment:
     &airflow-common-env
-    - AIRFLOW__CORE__EXECUTOR=LocalExecutor
-    - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres-airflow:5432/airflow
-    - AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION=true
-    - AIRFLOW__CORE__LOAD_EXAMPLES=false
-    - AIRFLOW__LOGGING__DAG_PROCESSOR_LOG_TARGET=stdout
-    - AIRFLOW__LOGGING__DAG_PROCESSOR_MANAGER_LOG_TARGET=stdout
-    - AIRFLOW__LOGGING__REMOTE_LOGGING=false
+    AIRFLOW__CORE__EXECUTOR: LocalExecutor
+    AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres-airflow:5432/airflow
+    AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: "true"
+    AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+    AIRFLOW__WEBSERVER__BASE_URL: http://localhost:8080
+    AIRFLOW__API__AUTH_BACKENDS: airflow.api.auth.backend.basic_auth,airflow.api.auth.backend.session
+    AIRFLOW__WEBSERVER__ENABLE_PROXY_FIX: "true"
   volumes:
     - ./dags:/opt/airflow/dags
     - ./logs:/opt/airflow/logs
@@ -18,65 +16,63 @@ x-airflow-common: &airflow-common
     - ./config:/opt/airflow/config
     - ./scripts:/opt/airflow/scripts
     - ./generated_data:/opt/airflow/generated_data
-  user: "0:0"
-  depends_on:
-    postgres-airflow:
-      condition: service_healthy
 
 services:
   postgres-airflow:
     image: postgres:13
     environment:
-      - POSTGRES_USER=airflow
-      - POSTGRES_PASSWORD=airflow
-      - POSTGRES_DB=airflow
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
     volumes:
       - postgres_airflow_data:/var/lib/postgresql/data
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U airflow"]
       interval: 10s
       timeout: 5s
-      retries: 3
+      retries: 10
 
   postgres-data:
     image: postgres:13
     environment:
-      - POSTGRES_USER=data_user
-      - POSTGRES_PASSWORD=data_password
-      - POSTGRES_DB=user_behavior
+      POSTGRES_USER: data_user
+      POSTGRES_PASSWORD: data_password
+      POSTGRES_DB: user_behavior
     volumes:
       - postgres_data_data:/var/lib/postgresql/data
       - ./sql:/docker-entrypoint-initdb.d
     ports:
       - "5433:5432"
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U data_user"]
+      test: ["CMD-SHELL", "pg_isready -U data_user -d user_behavior"]
       interval: 10s
       timeout: 5s
-      retries: 3
+      retries: 10
 
   airflow-webserver:
     <<: *airflow-common
-    command: webserver
+    command: >
+      bash -c "
+        airflow db check || (airflow db init && airflow users create --username airflow --password airflow --firstname Airflow --lastname Admin --role Admin --email admin@example.com)
+        airflow webserver
+      "
     ports:
       - "8080:8080"
-    healthcheck:
-      test: ["CMD", "curl", "--fail", "http://localhost:8080/health"]
-      interval: 30s
-      timeout: 10s
-      retries: 5
 
   airflow-scheduler:
     <<: *airflow-common
-    command: scheduler
-    restart: always
+    command: >
+      bash -c "
+        airflow db check || airflow db init  
+        airflow scheduler
+      "
 
   minio:
     image: minio/minio
     command: server /data --console-address ":9001"
     environment:
-      - MINIO_ROOT_USER=minio
-      - MINIO_ROOT_PASSWORD=minio123
+      MINIO_ROOT_USER: minio
+      MINIO_ROOT_PASSWORD: minio123
     volumes:
       - minio_data:/data
     ports:
@@ -91,8 +87,8 @@ services:
   grafana:
     image: grafana/grafana:latest
     environment:
-      - GF_SECURITY_ADMIN_USER=admin
-      - GF_SECURITY_ADMIN_PASSWORD=admin
+      GF_SECURITY_ADMIN_USER: admin
+      GF_SECURITY_ADMIN_PASSWORD: admin
     volumes:
       - ./grafana/provisioning:/etc/grafana/provisioning
       - ./grafana/dashboards:/var/lib/grafana/dashboards

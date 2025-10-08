@@ -1,0 +1,5 @@
+faker==19.6.2
+boto3==1.28.62
+psycopg2-binary==2.9.7
+pandas==2.0.3
+minio==7.1.15
